@@ -1,0 +1,31 @@
+﻿.boardArticle {width: 100%;}
+
+/* 글목록 */
+
+#boardList table {width: 100%;}
+#input_my_info {margin-top:5%;}
+#post_css {margin-right:-65%; margin-left:35%;}
+#send_css {margin-right:-65%; margin-left:15%;}
+#write_post {font-size: 160%;color:#001423;  width: 50%; margin: 0 auto; margin-left:87%; font-family: 'Source Sans Pro', sans-serif; }
+
+#boardList th {background: #eee; padding: 5px 0; border-top: 2px solid #666; border-bottom: 1px solid #666;}
+#boardList tr:hover {background: #eee;}
+#boardList td {padding: 10px 0; border-bottom: 1px solid #666;}
+
+#boardList .no {width: 60px; text-align: center;}
+#boardList .subject {width: 180px; text-align: center;}
+#boardList .author {width: 80px; text-align: center;}
+#boardList .date {width: 80px; text-align: center;}
+#boardList .hit {width: 40px; text-align: center;}
+#boardList .none:hover{background:none;}
+#write {text-decoration:none;}
+#write:hover {color:blue;}
+#boardList .btnSet {text-align: right;}
+
+#boardList .paging {text-align: center;}
+#boardList .paging li {display: inline-block; height: 20px; margin: 0 5px; padding: 0 5px; border: 1px solid #666; background: #eee; line-height: 21px;}
+
+#boardList .paging li.current,
+#boardList .paging li:hover {background: #666;}
+#boardList .paging li.current,
+#boardList .paging li:hover a { color: #ddd;}
